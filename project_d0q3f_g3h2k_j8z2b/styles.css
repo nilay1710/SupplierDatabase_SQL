@@ -1,0 +1,160 @@
+.page-menu {
+    padding: 10px;
+    width: 100px;
+    background: lightblue;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+/* 
+.page-menu {
+  display: inline-block;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.page-menu:hover {
+  background-color: #0062cc;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 50px;
+}
+
+*/
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 50px;
+}
+
+.page-menu:hover {
+    cursor: pointer;
+    background: rgb(209, 232, 240);
+}
+
+/*
+table, tr, td, th {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+}
+*/
+
+.form-box {
+    width: 500px;
+    clear: both;
+}
+
+.form-box input {
+    width: 100%;
+    clear: both;
+    margin: 3px;
+}
+
+.error-msg {
+    margin: 10px;
+    color: rgb(188, 13, 13);
+}
+
+/* --- */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+/* Style the page title */
+h2 {
+  color: #333;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+
+
+/* Style the form inputs and labels */
+form {
+  display: inline-block;
+  margin: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  width: 200px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  margin: 30px auto;
+  width: 80%;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style the back button */
+.page-menu-back {
+  background-color: #ddd;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.page-menu-back:hover {
+  background-color: #ccc;
+}
+
